@@ -12,7 +12,7 @@ function GridBackground() {
     const rows = Math.ceil(window.innerHeight / CELL_SIZE);
 
     // Create grid container
-    const container = document.querySelector('.grid-container');
+    const container = document.querySelector('.grid-container') as HTMLDivElement;
     if (!container) return;
 
     container.innerHTML = '';
@@ -20,7 +20,7 @@ function GridBackground() {
     container.style.gridTemplateRows = `repeat(${rows}, ${CELL_SIZE}px)`;
 
     // Create grid cells and initial state
-    const cells = [];
+    const cells: HTMLDivElement[] = [];
     const state = new Array(rows * cols).fill(0);
     
     for (let i = 0; i < rows * cols; i++) {
