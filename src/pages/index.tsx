@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import Head from 'next/head';
+import Image from 'next/image';
 
 function GridBackground() {
   useEffect(() => {
@@ -172,8 +173,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>AiPE</title>
-        <meta name="description" content="Check Solana token volume" />
+        <title>AiPE - Solana Token Volume Checker</title>
+        <link rel="icon" href="/icon.png" />
       </Head>
 
       <div className="min-h-screen bg-gradient-to-br from-metallic-darker via-metallic-dark to-metallic-darker">
@@ -250,6 +251,12 @@ export default function Home() {
             </div>
           </div>
         </main>
+
+        <footer className="relative z-10 p-6 text-center">
+          <p className="text-metallic-accent text-sm">
+            2025 AiPE Labs
+          </p>
+        </footer>
       </div>
     </>
   );
