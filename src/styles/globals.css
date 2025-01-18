@@ -82,11 +82,13 @@ body {
 
 /* Custom glow colors for success/error states */
 .result-card.success {
-  @apply from-metallic-dark/90 to-metallic-base/90 border-metallic-accent/30;
-  --glow-color: theme('colors.metallic.accent');
+  @apply from-green-900/20 to-green-800/20 border-green-500/30;
+  --glow-color: #00ff66;
+  color: #00ff66;
 }
 
 .result-card.error {
-  @apply from-red-900/90 to-red-800/90 border-red-500/30;
-  --glow-color: theme('colors.red.500');
+  @apply from-red-900/20 to-red-800/20 border-red-500/30;
+  --glow-color: #ff1a1a;
+  color: #ff1a1a;
 }
