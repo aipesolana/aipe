@@ -173,8 +173,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>AiPE - Solana Token Volume Checker</title>
-        <link rel="icon" href="/icon.png" />
+        <title>AiPE - Check if you should APE or FADE</title>
+        <link rel="icon" type="image/png" href="/icon.png" />
+        <link rel="shortcut icon" type="image/png" href="/icon.png" />
+        <link rel="apple-touch-icon" href="/icon.png" />
       </Head>
 
       <div className="min-h-screen bg-gradient-to-br from-metallic-darker via-metallic-dark to-metallic-darker">
@@ -185,9 +187,12 @@ export default function Home() {
         <main className="content-wrapper min-h-screen flex items-center justify-center px-4">
           <div className="w-full max-w-md animate-fade-up">
             <div className="text-center mb-12 animate-fade-up">
-              <h1 className="glow-text">
-                AiPE - Check if you should APE or FADE
+              <h1 className="text-6xl font-bold mb-3 bg-gradient-to-r from-metallic-highlight via-white to-metallic-highlight bg-clip-text text-transparent">
+                AiPE
               </h1>
+              <p className="glow-text">
+                Check if you should APE or FADE
+              </p>
             </div>
 
             <div className="space-y-6">
