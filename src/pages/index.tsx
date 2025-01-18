@@ -185,12 +185,9 @@ export default function Home() {
         <main className="content-wrapper min-h-screen flex items-center justify-center px-4">
           <div className="w-full max-w-md animate-fade-up">
             <div className="text-center mb-12 animate-fade-up">
-              <h1 className="text-6xl font-bold mb-3 bg-gradient-to-r from-metallic-highlight via-white to-metallic-highlight bg-clip-text text-transparent">
-                AiPE
+              <h1 className="glow-text">
+                AiPE - Check if you should APE or FADE
               </h1>
-              <p className="text-metallic-highlight text-lg">
-                Check if you should APE or FADE
-              </p>
             </div>
 
             <div className="space-y-6">
